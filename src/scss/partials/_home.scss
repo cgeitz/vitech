@@ -1,0 +1,62 @@
+.home-header{
+	text-align: center;
+	padding: 30px 0;
+}
+.homepage-banner{
+	height: 340px;
+	overflow: hidden;
+	background: url(../img/homepage/blue-2.jpg);
+	background-size: cover; 
+	height: 400px;
+	margin-bottom: 50px;
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	span{
+		color: #fff;
+		width: 80%;
+		font-size: 32px;
+		margin: auto;
+		display: block;
+		text-align: center;
+		text-shadow: 0px 4px 3px #000;
+	}
+}
+
+.home-copy{
+	width: 80%;
+	display: block;
+	margin: auto;
+	font-size: 22px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.buttons{
+	width: 70%;
+	overflow: hidden;
+	margin: 0 auto 50px auto;
+	a{
+		width: 48%;
+		margin: 10px 0;
+		padding: 30px 0;
+		text-align: center;
+		display: block;
+		text-decoration: none;
+		background: #043160;
+		color: #fff;
+		float: left;
+		transition: all 0.3s ease 0s;
+		border: 1px solid #043160;
+		&:nth-of-type(2n){
+			float: right;
+		}
+
+		&:hover{
+			background: #fff;
+			color: #043160;
+		}
+	}
+}
+

@@ -1,0 +1,28 @@
+.footer-container{
+	border-top: 1px solid #000;
+	.footer{
+		width: 80%;
+		margin: auto;
+		padding: 20px 0;
+		display: flex;
+		justify-content: space-between;
+		h5{
+			font-family: 'helvetica';
+			display: inline;
+			margin: 0;
+		}
+		a{
+			display: inline;
+			font-family: 'helvetica';
+			text-decoration: none;
+			color: #000;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+		span{
+			margin: 0px 10px;
+
+		}
+	}
+}
